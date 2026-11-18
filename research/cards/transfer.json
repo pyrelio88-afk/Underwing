@@ -1,0 +1,165 @@
+{
+  "id": "transfer",
+  "kind": "clinical",
+  "updated": "2026-11-17",
+  "title": "床到轮椅转移",
+  "type": "护理",
+  "sub": "安全扶家人坐上椅",
+  "keyline": "先刹好轮椅，屈膝挺腰用腿发力，别拽手臂",
+  "keyline_refs": ["hkLift", "mpWheel", "albTransfer"],
+  "flavor": "慢一点，两个人都安全。",
+  "stats": [
+    {"k": "准备", "v": "轮椅、防滑鞋，需要时备转移带"},
+    {"k": "适合", "v": "至少一条腿能站住的家人"}
+  ],
+  "why": [
+    {"text": "扶抱的方法不对，照护的人容易伤到腰背，家人也容易摔倒。方法对了，两个人都更安全、更安心。", "refs": ["hkLift", "albTransfer"]},
+    {"text": "拽着胳膊把人拉起来，容易让肩膀疼、肩关节半脱位（肩膀关节松脱），中风后一侧无力的人尤其容易受伤。", "refs": ["dfyyTransfer", "albTransfer"]},
+    {"text": "下面的一人扶法，前提是家人至少有一条腿能站住、能配合挪小步。站不住，就要找人帮忙或者用移位机（机械吊起的辅助器）。", "refs": ["mpWheel"]}
+  ],
+  "for": ["家人能坐稳，至少一条腿能承重", "中风后一侧无力、术后体弱等需要人扶着下床的家人"],
+  "notfor": ["家人两条腿都站不住、不能配合：不要一个人硬抱，请找人帮忙或用移位机", "髋部、腿部、脊柱骨折或手术后早期：先问医护能不能这样转移", "刚摔倒、可能伤到头、背、脖子或髋部：不要扶起，请直接看何时联系医护"],
+  "steps": [
+    {"t": "先想好步骤，清走地上的东西", "d": "动手前把步骤在脑子里过一遍。移开地上的小地毯、杂物。给家人穿上防滑鞋或防滑袜。跟家人说清楚等会儿怎么做。", "why": "地面滑、有东西绊脚，最容易摔。家人知道怎么配合，转移更顺。", "refs": ["mpWheel", "hkLift", "albTransfer"]},
+    {"t": "轮椅斜放床边，刹车刹好", "d": "把轮椅推到床边，和床成大约 30–45 度角。如果一侧身体更有力，把轮椅放在有力的那一侧。刹好刹车，把脚踏板翻起来。", "why": "斜放离得近，转身距离短。刹车没刹好，轮椅一受力就会滑走。", "refs": ["mpWheel", "hkLift", "hkSide", "albTransfer", "bjYouan"]},
+    {"t": "扶家人坐起来，先坐一会儿", "d": "让家人侧身朝向轮椅这边，你一只手托肩背、一只手托膝盖后面，顺势把腿放到床边，扶他坐起。坐稳后先歇一会儿，再挪到床边，双脚踩实地面。", "why": "刚坐起来可能会头晕，先坐一会儿再站，能减少晕倒和摔倒。", "refs": ["mpWheel", "albTransfer", "bjYouan"]},
+    {"t": "需要时系上转移带", "d": "如果家里有转移带（系在腰上的宽带子，方便抓握），系在家人腰部，转移时抓住带子。", "why": "抓转移带比空手环抱更牢，也不用去拉胳膊。", "refs": ["mpWheel", "albTransfer"]},
+    {"t": "站近、屈膝、挺腰", "d": "尽量站近家人。双脚分开站稳，膝盖弯下来，腰背挺直，收紧肚子。一只脚的脚尖朝向轮椅。", "why": "靠近能减轻腰背负担；用腿发力，不用腰发力，才不容易闪腰。", "refs": ["hkLift", "hkSide", "mpWheel", "albTransfer"]},
+    {"t": "数「1、2、3」一起站", "d": "你托住家人的胸背或抓转移带，喊「1、2、3」，到「3」时一起起身。用腿慢慢站直，同时请家人双手撑床帮忙用力。让家人扶轮椅或扶你的身体，不要搂你的脖子。", "why": "两个人同时用力最省劲。被搂住脖子容易伤到你，也容易一起摔倒。", "refs": ["mpWheel", "albTransfer", "hkSide"]},
+    {"t": "小步转身，慢慢坐下", "d": "让家人用有力的那条腿为轴，小步转向轮椅，直到腿后面碰到椅面。请家人扶住扶手、身体稍向前倾，你屈膝慢慢把他放进座位深处。", "why": "小步转身比一下子扭过去更稳；屈膝慢放，避免重重砸在椅子上。", "refs": ["mpWheel", "albTransfer"]},
+    {"t": "坐好后放下脚踏板", "d": "让家人身体靠后坐好，放下脚踏板，把双脚放上去。轮椅有安全带的，系好。", "why": "坐得靠后、脚有支撑、系好安全带，推行时不容易往前滑。", "refs": ["bjYouan", "dfyyTransfer"]}
+  ],
+  "mistakes": [
+    {"t": "拽着家人的胳膊往上拉，或从腋下把人提起来", "why": "这样容易让肩膀疼、肩关节半脱位、肌肉拉伤。要托住躯干、抓腰带或转移带，从下往上托住肩膀，不要拉扯。", "refs": ["dfyyTransfer", "albTransfer", "hkSide"]},
+    {"t": "弯着腰去抱人", "why": "弯腰扭腰最伤腰。要挺直腰背、收紧肚子、屈膝扎稳，用腿发力。", "refs": ["hkLift", "hkSide", "albTransfer"]},
+    {"t": "忘了刹轮椅、没收脚踏板", "why": "转移前一定要刹好刹车、收起脚踏板。", "refs": ["mpWheel", "dfyyTransfer"]},
+    {"t": "让家人搂着你的脖子", "why": "不要让家人抓住或搂住你的脖子，可以扶轮椅或扶你的身体。", "refs": ["mpWheel", "albTransfer"]},
+    {"t": "一个人抱不动也硬撑", "why": "需要时找家人或朋友帮忙，由一个人喊口令；也可以用起重器、转移器等辅助器具，量力而为。", "refs": ["hkLift", "albTransfer"]}
+  ],
+  "freq": [],
+  "stop": [
+    {"level": "120", "text": "家人在转移中摔倒，可能伤到头、背、脖子或髋部，或者自己起不来：不要硬把人抱起来，让他保持舒服、保暖，打 120。", "refs": ["nhsFalls"]},
+    {"level": "urgent", "text": "摔倒后有疼痛、受伤或者看起来不舒服：尽快联系医生或就医。", "refs": ["nhsFalls"]},
+    {"level": "doctor", "text": "只要摔倒过一次，哪怕看起来没事，也要告诉家人的医生。", "refs": ["mpWheel", "nhsFalls"]},
+    {"level": "followup", "text": "转移总是很吃力、不知道怎么做才对：请康复师或其他医护人员当面教一次，并在指导下练习。", "refs": ["hkLift", "albTransfer"]}
+  ],
+  "conditions": ["脑卒中（中风）后偏瘫", "术后体弱", "长期卧床", "老年行动不便"],
+  "related": ["postop"],
+  "illus": "家里卧室，轮椅斜放在床边、刹车已扣上，一位家属屈膝挺直腰背、双脚分开站在坐于床边的老人面前，双手抓住系在老人腰上的转移带，老人双手撑床准备一起站起来。",
+  "sources": [
+    {
+      "key": "hkLift",
+      "title": "扶抱及位置转移",
+      "publisher": "香港特别行政区政府 长者健康及护理资讯网（elderly.gov.hk）",
+      "url": "https://www.elderly.gov.hk/sc_chi/carers_corner/caring_skills/liftingandtransfer.html",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why1 方法不对易受伤", "quote": "若扶抱及位置转移的方法不正确，可导致受伤。所以，护老者须使用正确的扶抱及位置转移技巧；这样，不但能减低重复性劳损和受伤，更能令长者在转移过程中有安全感"},
+        {"for": "步骤1/2 事前准备、锁好轮椅", "quote": "确保环境安全"},
+        {"for": "步骤2 锁好轮椅", "quote": "适当地放置用具，例如椅子或轮椅，并把轮椅锁好"},
+        {"for": "步骤1 解释", "quote": "向长者解释有关步骤，以取得长者的参与和配合"},
+        {"for": "步骤5/错误2 挺腰收腹", "quote": "保持挺腰姿势，收紧腹部肌肉，令肌肉结实以作腰部的保护"},
+        {"for": "步骤5 屈膝", "quote": "曲膝并扎稳马步"},
+        {"for": "步骤5 靠近", "quote": "尽量靠近长者而减轻腰背的负荷"},
+        {"for": "步骤5 脚尖指向、下肢发力", "quote": "其中一只脚的脚尖要指向目的地，有助护老者能正确地转移重心"},
+        {"for": "错误5/stop followup 找人帮忙", "quote": "需要时请找家人丶同事丶朋友或其他人协助，并由其中一人发号施令"},
+        {"for": "错误5 辅助器具", "quote": "适当使用合适的起重器或辅助转移器，避免劳损或受伤"},
+        {"for": "stop followup 问医护", "quote": "如有任何扶抱技巧应用上的疑问，护老者可向物理治疗师或其他医护人员查询。"}
+      ]
+    },
+    {
+      "key": "hkSide",
+      "title": "扶抱及位置轉移技巧－從床到椅：從側身提供協助",
+      "publisher": "香港特别行政区政府 长者健康及护理资讯网（elderly.gov.hk）",
+      "url": "https://www.elderly.gov.hk/tc_chi/education_and_media_resources/files/lifting_and_transfer6.pdf",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤2 45度", "quote": "把輪椅以 45 度貼近床邊 因為位置較近，轉移的距離便較短"},
+        {"for": "错误1 由下而上承托、不要拉扯", "quote": "要點是由下而上承托長者的上肢，不要拉扯"},
+        {"for": "步骤5/错误2 姿势", "quote": "護老者要保持腰背挺直、收腹、紮馬步 然後一腳腳尖指向目的地 即指向輪椅 以下肢發力"},
+        {"for": "步骤6 数一二三", "quote": "例如：數「一、二、三」，到「三」便起身"}
+      ]
+    },
+    {
+      "key": "dfyyTransfer",
+      "title": "【医学小常识】偏瘫患者如何进行床椅间的转移？",
+      "publisher": "北京中医药大学东方医院康复科，2023",
+      "url": "https://dongfangyy.com.cn/Html/News/Articles/9540.html",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why2/错误1 拽手臂的危害", "quote": "在扶患者起床或站立转移的时候，会拉患者上肢拽起或从腋下把患者抱起。这样的操作，容易引起患侧肩关节的疼痛、肩关节半脱位、肌肉拉伤、严重的有肋骨骨折等。"},
+        {"for": "错误3/步骤8 刹车、脚踏板", "quote": "把轮椅放到患者的健侧，轮椅与床呈45°夹角，竖起脚踏板、刹住双侧车闸"},
+        {"for": "错误1 握腰带托髋", "quote": "双手握住患者腰带或托住双髋，向前向上拉动患者"},
+        {"for": "步骤8 坐深、放脚踏板", "quote": "把患者放到轮椅坐位深处，放下脚踏板，将患者双脚放到脚踏板上。"}
+      ]
+    },
+    {
+      "key": "bjYouan",
+      "title": "稳“赢”不“倒”，佑安提示老年朋友要拒绝“步步惊心”",
+      "publisher": "首都医科大学附属北京佑安医院，发布于北京市卫生健康委员会网站，2025",
+      "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jksh/202501/t20250115_3989937.html",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤2 角度与刹车", "quote": "轮椅与床尾呈30-45度，提前固定好刹车，以便于患者安全转移。"},
+        {"for": "步骤3 缓慢起床", "quote": "起床前，先侧躺30秒，坐30秒，站30秒，确保身体适应后再行动。这一步骤有助于防止因体位突然变化而引起的晕厥或跌倒。"},
+        {"for": "步骤8 安全坐姿", "quote": "坐在轮椅上时，身体要靠后，双脚放在脚踏板上，并系好安全带，以防止在移动过程中发生滑动或跌倒。"}
+      ]
+    },
+    {
+      "key": "mpWheel",
+      "title": "Moving a patient from bed to a wheelchair",
+      "publisher": "MedlinePlus（美国国家医学图书馆），2025 审核",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000428.htm",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why3 适用前提", "quote": "The technique below assumes the person can stand on at least one leg. If the person cannot use at least one leg, you will need to use a lift to transfer them."},
+        {"for": "步骤1 准备、找帮手", "quote": "Think through the steps before you act and get help if you need it. If the person is not able to stand, take small steps, and support their body weight, you should get help."},
+        {"for": "步骤1 防滑", "quote": "Make sure any loose rugs are out of the way to prevent slipping. You may want to put non-skid socks or shoes on the person's feet"},
+        {"for": "步骤2/错误3 刹车与脚踏", "quote": "Put the brakes on and move the footrests out of the way."},
+        {"for": "步骤3 先坐一会儿", "quote": "Allow the person to sit for a few moments, in case they feel dizzy when first sitting up."},
+        {"for": "步骤4/错误4 转移带、不搂脖子", "quote": "If you have a gait belt, place it on the person to help you get a grip during the transfer. During the turn, the person can either hold onto you or reach for the wheelchair. They should not wrap their arms around your head or neck."},
+        {"for": "步骤5/6 屈膝直背、数三", "quote": "Bend your knees and keep your back straight."},
+        {"for": "步骤6 数三、用腿", "quote": "Count out loud to three and slowly stand up. Use your legs to lift and shift your weight from your front leg to your back leg."},
+        {"for": "步骤6 家人撑床", "quote": "At the same time, the person should place their hands by their sides and help push off the bed."},
+        {"for": "步骤7 坐下", "quote": "Once the person’s legs are touching the seat of the wheelchair, bend your knees and move your weight from your back to your front leg to lower them into the seat. At the same time, ask them to reach for the wheelchair armrest."},
+        {"for": "stop doctor 摔倒告知医生", "quote": "Contact the person's health care provider if they fall."}
+      ]
+    },
+    {
+      "key": "albTransfer",
+      "title": "Transfer: Bed to Wheelchair",
+      "publisher": "Alberta Health Services（加拿大艾伯塔省卫生服务局），2026",
+      "url": "https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=acv3106",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤2 有力侧、刹车", "quote": "Prepare the wheelchair by locking the brakes and removing or swinging away both leg rests and the armrest that is closest to the bed."},
+        {"for": "步骤2 有力侧", "quote": "Place the wheelchair near the person's unaffected side, if there is one."},
+        {"for": "步骤3 托肩和膝", "quote": "Put your arm under theirs and reach around to their upper back with your hand to support their shoulder. Put your other hand behind their knees."},
+        {"for": "步骤4 转移带", "quote": "If needed, attach a transfer belt around the person's waist."},
+        {"for": "步骤6/错误4 不搂脖子、数三", "quote": "Do not let them grab or hold you around your neck. Use a transfer belt if needed."},
+        {"for": "步骤6 一起数", "quote": "Talk to each other while rocking so you are both prepared to stand at the same time, like by saying: \"Stand on 3. 1, 2, 3.\""},
+        {"for": "why2/错误1 不拉手臂不提腋下", "quote": "Never pull on the person's weaker arm or lift them by the armpits."},
+        {"for": "步骤7 小步转身、慢放", "quote": "Once standing, have the person take shuffle steps or pivot on their stronger leg toward the wheelchair, as you continue to hold on."},
+        {"for": "步骤7 屈膝放下", "quote": "As the person bends toward you, bend your knees and lower the person into the back of the wheelchair."},
+        {"for": "why1/错误2 护腰", "quote": "Keep your knees bent and your back straight. Any lifting power comes from your legs and not your back."},
+        {"for": "步骤1 先想好步骤", "quote": "Organize the steps in your head before you start."},
+        {"for": "错误5/stop followup", "quote": "Get help when you need it."},
+        {"for": "stop followup 指导下练习", "quote": "Ask to practice with supervision."}
+      ]
+    },
+    {
+      "key": "nhsFalls",
+      "title": "Falls",
+      "publisher": "NHS（英国国家医疗服务体系），2025 审核",
+      "url": "https://www.nhs.uk/conditions/falls/",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "stop 120（原文 999）", "quote": "You or someone else has fallen and: may have injured the head, back, neck or hip cannot get up"},
+        {"for": "stop 120 不要自己硬抱", "quote": "If someone else has fallen, keep them comfortable and warm. Carefully help them get up if they can, but do not try to lift them yourself."},
+        {"for": "stop urgent（原文 NHS 111）", "quote": "you or someone else has fallen and may be in pain, injured or unwell"},
+        {"for": "stop doctor 摔过就告诉医生", "quote": "you've had a fall"}
+      ]
+    }
+  ],
+  "notes": "NHS 原文急救为 999、紧急咨询为 NHS 111，已分别本地化为 120 和「尽快联系医生或就医」。elderly.gov.hk 为香港特区政府长者健康及护理资讯网，内容为中文，故作为首选中文来源；内地卫健委层面未检索到专门的床椅转移家属科普，改用北京市卫健委网站转载的医院科普和三甲医院康复科科普。轮椅放置角度各源略有不同（30–45 度/45 度/平行或稍斜），卡片写「大约 30–45 度」。notfor 中「骨折或手术后早期先问医护」为常识性提醒，未单独引用来源。StatPearls 页面被验证码拦截，未引用。"
+}

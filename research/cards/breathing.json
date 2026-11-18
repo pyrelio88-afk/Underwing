@@ -1,0 +1,114 @@
+{
+  "id": "breathing",
+  "kind": "clinical",
+  "updated": "2026-11-17",
+  "title": "缩唇和腹式呼吸",
+  "type": "护理",
+  "sub": "慢阻肺呼吸练习",
+  "keyline": "鼻子吸气，嘴唇像吹口哨一样慢慢呼出",
+  "keyline_refs": ["nhcCopd", "ala"],
+  "flavor": "慢慢呼，气会顺一些。",
+  "stats": [
+    {"k": "用时", "v": "每次约 10–15 分钟"},
+    {"k": "准备", "v": "一把有靠背的椅子"},
+    {"k": "适合", "v": "慢阻肺（慢性阻塞性肺疾病）、肺康复"}
+  ],
+  "why": [
+    {"text": "慢阻肺（慢性阻塞性肺疾病）的人，肺里旧气容易排不干净，憋在里面。缩唇呼吸让呼气变慢、变长，能帮小气道撑开，把肺里的旧气呼出去。", "refs": ["ala", "puh3"]},
+    {"text": "腹式呼吸是让肚子带着呼吸，少用脖子、肩膀的力气，呼吸更省劲，气短会轻一些。", "refs": ["ala", "puh3"]},
+    {"text": "国家卫健委的慢阻肺健康教育处方和中华医学会基层诊疗指南，都把腹式呼吸、缩唇呼吸列为患者要学会的自我管理技巧。", "refs": ["nhcCopd", "cmaCopd2018"]},
+    {"text": "呼吸练习是吃药之外的帮手，不能代替药物。药要按医嘱长期用，不要自己停。", "refs": ["nhcCopd"]}
+  ],
+  "for": ["慢阻肺（慢性阻塞性肺疾病）病情稳定时的日常练习", "哮喘等慢性肺病，医生或康复师建议练习呼吸的人", "走路、爬楼时感到气短，想让呼吸慢下来"],
+  "notfor": ["正在急性加重：咳嗽、咳痰、喘憋短时间内明显加重——不要硬练，请直接看何时联系医护", "嘴唇发紫、胸痛、意识不清——请直接看何时联系医护", "合并肺大疱、心力衰竭等，请先问医生要个人方案"],
+  "steps": [
+    {"t": "先找个舒服的姿势", "d": "坐在有靠背的椅子上，或者躺下、半躺都可以。放松脖子和肩膀。", "why": "肩颈一紧，就会用错力气呼吸。卧位、坐位、站位都能练。", "refs": ["ala", "nhcCopd"]},
+    {"t": "闭上嘴，用鼻子慢慢吸气", "d": "心里默数「1、2」，用鼻子吸气，嘴巴闭着。", "why": "用鼻吸气是两种呼吸法的第一步。", "refs": ["ala", "nhcCopd"]},
+    {"t": "嘴唇缩起来，慢慢呼出去", "d": "把嘴唇撅起来，像吹口哨或轻轻吹蜡烛，默数「1、2、3、4」，慢慢把气呼完。呼气要比吸气长，一般是吸气的 2 倍以上，大约 4–6 秒。", "why": "嘴唇缩起来形成一点阻力，气道能撑开更久，肺里憋住的气更容易排出来。", "refs": ["ala", "nhcCopd", "puh3"]},
+    {"t": "手放肚子上，练腹式呼吸", "d": "双手轻放在肚子上。吸气时让肚子像气球一样鼓起来，呼气时肚子慢慢瘪下去，胸口尽量不动。", "why": "手放在肚子上，能感觉到肚子起伏，帮你把注意力放在膈肌（肚子和胸之间的那块呼吸肌）上。", "refs": ["ala", "nhcCopd", "puh3"]},
+    {"t": "两种方法连起来做", "d": "腹式呼吸吸气，再用缩唇的方式慢慢呼出。一边呼吸，一边保持肩膀放松。", "why": "美国肺脏协会教的腹式呼吸，呼气就是用缩唇的方式。", "refs": ["ala"]},
+    {"t": "每次练 10–15 分钟，每天 2–3 次", "d": "按国家卫健委的建议，腹式呼吸每次 10–15 分钟，每天 2–3 次或更多。累了就停下休息。", "why": "天天练才会熟，熟了气短时才用得上。", "refs": ["nhcCopd", "ala"]},
+    {"t": "熟练后，气短时拿出来用", "d": "走路、爬楼或者气短时，用缩唇呼吸让呼吸慢下来，直到呼吸恢复平稳。", "why": "缩唇呼吸能让呼吸变慢、每一口气更有效，也能让人平静下来。", "refs": ["ala"]}
+  ],
+  "mistakes": [
+    {"t": "等到喘不上气才第一次练", "why": "这些方法看着简单，其实要花时间练熟。要在呼吸还好的时候练，熟练了再在气短时用。", "refs": ["ala"]},
+    {"t": "呼气太快、太短", "why": "关键是慢慢呼、呼得长，呼气时间至少是吸气的 2 倍，这样才能把肺里的旧气呼出来。", "refs": ["ala", "puh3"]},
+    {"t": "耸肩、用胸口使劲吸", "why": "要放松脖子和肩膀，让肚子起伏，胸口尽量不动。", "refs": ["ala", "puh3"]},
+    {"t": "觉得练了呼吸就可以少吃药、停药", "why": "药要按医嘱长期用，不可随意停药。呼吸练习只是配合治疗。", "refs": ["nhcCopd"]}
+  ],
+  "freq": [
+    {"text": "国家卫健委建议：腹式呼吸每次 10–15 分钟，每天 2–3 次或更多。", "refs": ["nhcCopd"]},
+    {"text": "美国肺脏协会建议：两种呼吸法每天各练大约 5–10 分钟。", "refs": ["ala"]}
+  ],
+  "stop": [
+    {"level": "120", "text": "用了缩唇呼吸还是一直喘不上气，或者嘴唇发紫、胸痛、昏迷：马上打 120。", "refs": ["ala", "nhcCopd"]},
+    {"level": "urgent", "text": "短时间内咳嗽、咳痰、喘憋明显加重：少活动，尽快联系医生或去附近医院；严重的直接打 120。", "refs": ["nhcCopd"]},
+    {"level": "urgent", "text": "呼吸困难越来越重，或者出现腿肿、肚子胀、吃不下、头晕头痛：尽快就诊。", "refs": ["nhcCopd"]},
+    {"level": "followup", "text": "大约每半年去医院查一次肺功能，了解病情变化。", "refs": ["nhcCopd"]}
+  ],
+  "conditions": ["慢性阻塞性肺疾病", "哮喘", "肺康复"],
+  "related": ["home_o2"],
+  "illus": "一位老人坐在家里有靠背的椅子上，肩膀放松，双手轻放在肚子上，嘴唇撅起像吹口哨一样慢慢呼气，肚子微微收进去。",
+  "sources": [
+    {
+      "key": "nhcCopd",
+      "title": "慢阻肺患者健康教育处方",
+      "publisher": "国家卫生健康委员会，2019",
+      "url": "https://www.nhc.gov.cn/wjw/jkshfs/201903/799bcaed7ad24433a4f0c301c2b5d180/files/1733375501887_61600.pdf",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "keyline/步骤3 缩唇呼吸", "quote": "②缩唇呼吸：闭口经鼻吸气，缩唇做吹口哨样缓慢呼气 4-6 秒，使肺内气体尽 量呼出（图 2）。"},
+        {"for": "步骤1/4/6 腹式呼吸、体位与频率", "quote": "①腹式呼吸：可采用卧位、坐位、立位练习，吸气时腹部鼓起，呼气时腹部内 收，每次 10-15 分钟，每日 2-3 次或更多（图 1）。"},
+        {"for": "why3 呼吸运动", "quote": "平时可进行科学的呼吸运动，改善通气功能。"},
+        {"for": "why4/错误4 不可停药", "quote": "遵医嘱坚持长期用药，不可随意停药。"},
+        {"for": "stop 急性加重", "quote": "急性加重：短期内出现咳嗽、咳痰或喘憋症状加重时，减少活动，尽快联系医 生或到附近医院就诊，严重者尽快拨打急救电话。"},
+        {"for": "stop 并发症", "quote": "并发症：当出现呼吸困难加重或嘴唇发紫、腿肿、腹胀、食欲差、胸痛、头晕、 头疼或昏迷等症状时，提示存在并发症，应尽快就诊。"},
+        {"for": "stop 复查肺功能", "quote": "患者应每半年左右到医院进行肺功能等检查，了解病情进展。"}
+      ]
+    },
+    {
+      "key": "cmaCopd2018",
+      "title": "慢性阻塞性肺疾病基层诊疗指南（实践版·2018）",
+      "publisher": "中华医学会等，中华全科医师杂志，2018",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/03e2c527a0cd446f845e76dc5d0a3316.pdf",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why3 健康教育", "quote": "4．学会自我控制病情的技巧，如腹式呼吸及缩唇呼吸等。"}
+      ]
+    },
+    {
+      "key": "puh3",
+      "title": "缩唇呼吸与腹式呼吸",
+      "publisher": "北京大学第三医院呼吸与危重症医学科，2021",
+      "url": "https://www.puh3.net.cn/hxywzzyxk/info/1402/3472.htm",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why1/步骤3 缩唇原理", "quote": "这个方法可在气管支气管内产生一定的呼气末正压，防止小气道由于失去弹性牵引和胸内高压引起的塌陷，可以有效地排除肺内残留气体"},
+        {"for": "步骤3/错误2 呼气时长", "quote": "吸气时默数1、2，呼气时默数1、2、3、4、(5、6、7、8)，呼气时间是吸气时间的2-4倍。"},
+        {"for": "why2/步骤4/错误3 腹式要点", "quote": "1）深而缓的呼吸运动，吸气的时候腹部隆起，呼气的时候腹部塌陷，胸部不动。"},
+        {"for": "why2 腹式作用", "quote": "因此，腹式呼吸可增加潮气量，减少功能残气量，提高肺泡通气量，降低呼吸功耗，缓解呼吸困难症状，改善换气功能。"}
+      ]
+    },
+    {
+      "key": "ala",
+      "title": "Breathing Exercises",
+      "publisher": "American Lung Association（美国肺脏协会），2026 更新",
+      "url": "https://www.lung.org/lung-health-diseases/wellness/breathing-exercises",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why1 旧气憋在肺里", "quote": "If practiced regularly, breathing exercises can help rid the lungs of accumulated stale air, increase oxygen levels and get the diaphragm to return to its job of helping you breathe."},
+        {"for": "keyline/步骤2/3 缩唇", "quote": "To practice it, simply breathe in through your nose and breathe out at least twice as long through your mouth, with pursed lips."},
+        {"for": "步骤1 姿势放松", "quote": "To practice pursed-lip breathing, sit down in a chair and relax your neck and shoulder muscles."},
+        {"for": "步骤3 吹口哨/吹蜡烛", "quote": "Pucker or purse your lips as if you were going to whistle or gently blow out a candle."},
+        {"for": "步骤4/错误3 腹式与放松肩颈", "quote": "You can put your hands lightly on your stomach, or place a tissue box on it, so you can be aware of your belly rising and falling. Breathe out through your mouth at least two to three times as long as your inhale. Be sure to relax your neck and shoulders"},
+        {"for": "步骤5 腹式配合缩唇呼气", "quote": "Blow all of the air out slowly and gently through pursed lips, as if you were blowing bubbles."},
+        {"for": "why2/步骤7 少费力、平静", "quote": "This technique helps slow down your breathing so you can catch your breath and use less energy to breathe."},
+        {"for": "步骤7 直到呼吸平稳", "quote": "Continue to repeat this exercise of slowly inhaling through the nose and exhaling through pursed lips until your breathing becomes normal."},
+        {"for": "错误1 先在呼吸好时练", "quote": "\"You don't want to first try these exercises when you're short of breath,\" he says. \"You want to try them when you're breathing OK, and then later on when you're more comfortable, you can use them when you're short of breath.\""},
+        {"for": "freq/步骤6", "quote": "Ideally, you should practice both exercises about 5 to 10 minutes every day."},
+        {"for": "stop 120（原文 911）", "quote": "If you continue to be short of breath, call 911 and seek immediate medical attention."}
+      ]
+    }
+  ],
+  "notes": "美国肺脏协会原文急救电话为 911，已本地化为 120。各来源练习时长略有差异（国家卫健委：腹式每次10–15分钟、每天2–3次；美国肺脏协会：每天5–10分钟；北医三院：缩唇每天3–4次、每次15–20分钟），卡片主推国家卫健委口径。GOLD 报告全文为会员下载 PDF，本次未打开，未引用。"
+}

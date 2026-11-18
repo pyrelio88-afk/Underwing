@@ -1,0 +1,327 @@
+{
+ "id": "hypo",
+ "title": "识别低血糖",
+ "type": "安全",
+ "sub": "心慌手抖出冷汗",
+ "kind": "clinical",
+ "updated": "2026-11-17",
+ "related": [
+  "glucose",
+  "fall"
+ ],
+ "illus": "一位老人坐在餐桌旁，手微微发抖、额头冒汗，家人在旁边拿着血糖仪准备给他测指尖血糖。",
+ "keyline": "糖尿病人血糖≤3.9 mmol/L 就是低血糖；叫不醒别喂，打120",
+ "keyline_refs": [
+  "cmahypo",
+  "cctv"
+ ],
+ "flavor": "早一点认出来，就早一点安全。",
+ "stats": [
+  {
+   "k": "用时",
+   "v": "测一次约 3 分钟"
+  },
+  {
+   "k": "准备",
+   "v": "血糖仪、医生交代的应对方法"
+  },
+  {
+   "k": "适合",
+   "v": "用降糖药的糖尿病人"
+  }
+ ],
+ "why": [
+  {
+   "text": "对用药的糖尿病人来说，血糖≤3.9 mmol/L 就算低血糖。持续严重的低血糖会伤脑，甚至危及生命。",
+   "refs": [
+    "cmahypo"
+   ]
+  },
+  {
+   "text": "老人低血糖常常不典型，有时没有任何前兆就昏迷，或者看起来像中风，家人要格外留意。",
+   "refs": [
+    "cmahypo",
+    "cctv"
+   ]
+  },
+  {
+   "text": "低血糖还会让老人跌倒，带来骨折、头部受伤。",
+   "refs": [
+    "cctv"
+   ]
+  }
+ ],
+ "for": [
+  "家人有糖尿病，正在用胰岛素或降糖药",
+  "出现心慌、手抖、出冷汗、饥饿等不舒服"
+ ],
+ "notfor": [
+  "人已经叫不醒、昏迷或抽搐：不要喂任何东西，直接看“何时联系医护”"
+ ],
+ "steps": [
+  {
+   "t": "认出早期信号",
+   "d": "心慌、手抖、出冷汗、脸色发白、很饿、手脚发凉、浑身没劲、头晕。",
+   "why": "这时人往往还清醒，是处理的好时机。",
+   "refs": [
+    "cmahypo",
+    "medline"
+   ]
+  },
+  {
+   "t": "留意加重的信号",
+   "d": "说话不清、答非所问、行为反常、看东西模糊、犯困、意识模糊，甚至抽搐、昏迷。",
+   "refs": [
+    "cmahypo",
+    "bjwjw"
+   ]
+  },
+  {
+   "t": "有症状就测一次指尖血糖",
+   "d": "糖尿病人一有这些症状就测；测到≤3.9 mmol/L 就按低血糖处理。",
+   "refs": [
+    "medline",
+    "cmahypo"
+   ]
+  },
+  {
+   "t": "人清醒、能吞咽：按医生事先教的方法补糖",
+   "d": "按医生之前交代的种类和量，给吃含糖的食物或饮料。不清楚怎么做，平时就要先问好医生。",
+   "why": "家人应提前知道该给什么、给多少、什么时候叫急救。",
+   "refs": [
+    "medline",
+    "bjwjw"
+   ]
+  },
+  {
+   "t": "过一会儿再测",
+   "d": "吃完等约 15 分钟再测一次血糖，看有没有回升、症状有没有好转。",
+   "refs": [
+    "medline",
+    "cctv"
+   ]
+  },
+  {
+   "t": "叫不醒、不能吞咽：不喂食，侧躺，打 120",
+   "d": "让他侧躺，保持呼吸通畅，马上打 120，等医护人员来处理。",
+   "why": "昏迷时喂水喂糖容易呛进气管，引起窒息。",
+   "refs": [
+    "cctv",
+    "cmahypo"
+   ]
+  },
+  {
+   "t": "事后告诉医生",
+   "d": "把发生的时间、血糖数、当时吃饭和用药情况记下来，复诊时给医生看。",
+   "refs": [
+    "medline"
+   ]
+  }
+ ],
+ "mistakes": [
+  {
+   "t": "人已经昏迷，还硬往嘴里灌糖水",
+   "why": "昏迷时不要喂水、喂糖、喂任何东西，容易误吸窒息。应侧卧、打 120。",
+   "refs": [
+    "cctv",
+    "cmahypo"
+   ]
+  },
+  {
+   "t": "觉得老人只是“累了、困了”",
+   "why": "老人低血糖症状常不典型，可能表现为犯困、行为异常，甚至像中风。有糖尿病的老人出现这些情况，要想到低血糖。",
+   "refs": [
+    "cmahypo"
+   ]
+  },
+  {
+   "t": "发生过低血糖，就自己减药、停药或换药",
+   "why": "经常低血糖要告诉医生，但不要在没问医生前自己改用药。",
+   "refs": [
+    "medline",
+    "cctv"
+   ]
+  },
+  {
+   "t": "血糖越低越好",
+   "why": "控糖不是越低越好，严重低血糖对心脏、大脑的伤害很大。",
+   "refs": [
+    "cctv"
+   ]
+  }
+ ],
+ "freq": [],
+ "stop": [
+  {
+   "level": "120",
+   "text": "叫不醒、意识不清、抽搐或昏迷：不要喂东西，侧躺，马上打 120。",
+   "refs": [
+    "cctv",
+    "medline"
+   ]
+  },
+  {
+   "level": "120",
+   "text": "已经犯困、嗜睡：及时打急救电话。",
+   "refs": [
+    "cmahypo"
+   ]
+  },
+  {
+   "level": "120",
+   "text": "吃了含糖食物后症状仍不好转：打 120 或尽快去急诊，不要自己开车。",
+   "refs": [
+    "medline"
+   ]
+  },
+  {
+   "level": "doctor",
+   "text": "低血糖反复发生或经常偏低：尽快告诉医生，由医生调整方案。",
+   "refs": [
+    "medline"
+   ]
+  }
+ ],
+ "conditions": [
+  "糖尿病"
+ ],
+ "sources": [
+  {
+   "key": "cmahypo",
+   "title": "警惕低血糖，哪些措施不可少？",
+   "publisher": "中华医学会科学普及部，2022",
+   "url": "https://www.cma.org.cn/art/2022/6/16/art_4584_45503.html",
+   "verified": "read_full",
+   "quotes": [
+    {
+     "for": "≤3.9",
+     "quote": "血糖水平≤3.9mmol/L 就属于低血糖范畴。"
+    },
+    {
+     "for": "严重后果",
+     "quote": "持续严重的低血糖可以导致患者脑细胞发生不可逆损害，甚至死亡。"
+    },
+    {
+     "for": "早期信号",
+     "quote": "低血糖发生后刺激肾上腺素分泌增多，出现周身乏力、冷汗、皮肤苍白、心悸、饥饿感、四肢发凉、手颤动，此时意识尚清"
+    },
+    {
+     "for": "加重信号",
+     "quote": "患者意识模糊，定向力及识别力明显减退，嗜睡、多汗、震颤、意识不清及语言障碍。"
+    },
+    {
+     "for": "老人不典型",
+     "quote": "值得注意的是，老年人发生低血糖症状多不典型，经常容易误诊，尤其是昏迷、抽搐伴偏瘫为首发症状的低血糖，是一种暂时性偏瘫，常伴有意识不清，与卒中很相似。"
+    },
+    {
+     "for": "嗜睡打急救；昏迷不喂",
+     "quote": "对于已经出现嗜睡的老年糖尿病患者，应及时拨打急救电话联系医院，在救护车到来前可监测血糖，补充高糖食物。若已经昏迷，则不建议强行经口进食，以免误吸。"
+    }
+   ]
+  },
+  {
+   "key": "medline",
+   "title": "Low blood sugar - self-care",
+   "publisher": "MedlinePlus（美国国家医学图书馆），2026 年审核",
+   "url": "https://medlineplus.gov/ency/patientinstructions/000085.htm",
+   "verified": "read_full",
+   "quotes": [
+    {
+     "for": "症状",
+     "quote": "Know how to tell when your blood sugar is getting low. Symptoms include:"
+    },
+    {
+     "for": "症状清单",
+     "quote": "Fast or pounding heartbeat"
+    },
+    {
+     "for": "有症状就测",
+     "quote": "Check your blood sugar whenever you have symptoms of a low blood sugar."
+    },
+    {
+     "for": "家人提前知道怎么做",
+     "quote": "Family and friends should know how to help. They should know:"
+    },
+    {
+     "for": "家人提前知道给什么、何时叫急救",
+     "quote": "How much and what kind of food they should give you."
+    },
+    {
+     "for": "等约15分钟复测",
+     "quote": "Wait about 15 minutes before eating any more."
+    },
+    {
+     "for": "复测",
+     "quote": "Check your blood sugar again."
+    },
+    {
+     "for": "不要自己改药",
+     "quote": "Do not make any changes without talking to your provider or nurse first."
+    },
+    {
+     "for": "经常低要问医生",
+     "quote": "If you use insulin and your blood sugar is frequently or consistently low, ask your provider or nurse if you:"
+    },
+    {
+     "for": "补糖后不好转打急救",
+     "quote": "If signs of low blood sugar do not improve after you have eaten a snack that contains sugar, have someone drive you to the emergency room or call 911 or the local emergency number. Do not drive when your blood sugar is low."
+    },
+    {
+     "for": "叫不醒是急症",
+     "quote": "Get medical help right away for a person with low blood sugar if the person is not alert or cannot be woken up as this is a medical emergency."
+    }
+   ]
+  },
+  {
+   "key": "cctv",
+   "title": "联合国糖尿病日｜糖友别大意，警惕“隐形杀手”低血糖！",
+   "publisher": "央视网（撰稿：北京市朝阳区小红门社区卫生服务中心），2026",
+   "url": "https://jiankang.cctv.cn/2026/11/13/ARTIOgCx13Bq8qRQCwQf2maO261113.shtml",
+   "verified": "read_full",
+   "quotes": [
+    {
+     "for": "老人无症状性低血糖",
+     "quote": "尤其要警惕老年人，他们常常发生“无症状性低血糖”——身体没有任何明显的前兆，直接陷入昏迷"
+    },
+    {
+     "for": "跌倒风险",
+     "quote": "此外，对于老年人而言，低血糖产生的另一个重大健康风险就是因跌倒而造成的骨折或颅脑损伤等二次伤害，因此应格外警惕。"
+    },
+    {
+     "for": "15分钟复测",
+     "quote": "吃完糖等待15分钟，再次测量指尖血糖："
+    },
+    {
+     "for": "昏迷严禁喂食",
+     "quote": "如果患者已经意识不清或昏迷，千万不要喂水、喂糖、喂任何东西——极易呛入气管，导致窒息。正确做法是：立即让患者侧卧，保持呼吸道通畅，拨打120急救电话，等待专业医护人员处置。"
+    },
+    {
+     "for": "不是越低越好",
+     "quote": "很多糖友存在一个认知误区：血糖压得越低，说明控糖效果越好。这是最要命的错误观念！"
+    },
+    {
+     "for": "遵医嘱不自行调整",
+     "quote": "遵医嘱用药，不自行调整"
+    }
+   ]
+  },
+  {
+   "key": "bjwjw",
+   "title": "每周急救话题：低血糖-被低估的疾病",
+   "publisher": "北京市卫生健康委员会，2025",
+   "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jzjj/202503/t20250311_4031898.html",
+   "verified": "read_full",
+   "quotes": [
+    {
+     "for": "加重信号",
+     "quote": "如果低血糖持续未得到纠正，就会影响中枢神经系统，出现头晕、乏力、视物模糊、言语不清、行为异常、精神错乱等症状。严重时，甚至会导致昏迷、抽搐，危及生命。"
+    },
+    {
+     "for": "清醒时进食含糖食物",
+     "quote": "如果患者意识清醒，可以迅速进食含糖的食物或饮料，如糖果、饼干、果汁、含糖饮料等。"
+    }
+   ]
+  }
+ ],
+ "notes": "按要求不写补糖克数和具体份量（来源 cctv、MedlinePlus 均写了 15 克等，未采用）。各来源推荐的食物也不一致（中华医学会文中提到巧克力，央视网文章称巧克力不推荐），故卡片只写“按医生事先教的方法”。MedlinePlus 原文为 911，已本地化为 120。非糖尿病人的低血糖标准不同（<2.8 mmol/L），卡片只针对糖尿病人。"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "underwing-vendor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pinned vendor manifest for Underwing classic IIFE bundles (staged in temp dir; never keep node_modules in repo)",
+  "scripts": {
+    "build:vendor": "node scripts/build_vendor.mjs"
+  },
+  "dependencies": {
+    "cupertino-pane": "1.5.4",
+    "motion": "14.14.0",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

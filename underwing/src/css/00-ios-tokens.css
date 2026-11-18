@@ -1,0 +1,204 @@
+/* ================= 鹤伴 · Apple HIG iOS 设计令牌（与 app.css 正交隔离） ================= */
+:root{
+  --ios-font-sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --ios-font-display:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","PingFang SC","Noto Sans SC","Songti SC",serif;
+  --ios-font-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  --ios-text-large-title:1.72rem;
+  --ios-text-title1:1.38rem;
+  --ios-text-title2:1.18rem;
+  --ios-text-headline:1.00rem;
+  --ios-text-body:0.94rem;
+  --ios-text-subhead:0.86rem;
+  --ios-text-footnote:0.78rem;
+  --ios-text-caption:0.74rem;
+
+  --ios-bg-grouped:#F2F4F2;
+  --ios-bg-grouped-secondary:#EAEFEA;
+  --ios-bg-surface:#FFFFFF;
+  --ios-bg-elevated:#FFFFFF;
+
+  --ios-label:#0F0D0C;
+  --ios-label-2:#3A3937;
+  --ios-label-3:#595856;
+
+  --ios-tint:#255A41;
+  --ios-tint-2:#80C776;
+  --ios-tint-fill:#E4F2E1;
+  --ios-teal:#255A41;
+  --ios-steel:#1F5E6E;
+  --ios-indigo:#35449C;
+  --ios-amber:#7C580C;
+
+  /* 红色唯一性铁规：仅用于 .stop / 红线急诊区，禁止使用 #FF3B30 */
+  --ios-danger:#A61B1B;
+  --ios-danger-fill:#FEE2E2;
+
+  --ios-separator:rgba(60,67,62,0.24);
+  --ios-separator-opaque:#E6E6E6;
+  --ios-blur:blur(20px) saturate(180%);
+  --ios-material-chrome:rgba(247,248,247,0.82);
+  --ios-material-sheet:rgba(255,255,255,0.88);
+  --ios-material-pill:rgba(255,255,255,0.80);
+  --ios-scrim:rgba(15,13,12,0.36);
+
+  --ios-shadow-card:0 1px 2px rgba(0,0,0,0.04),0 4px 16px rgba(15,13,12,0.06);
+  --ios-shadow-sheet:0 -4px 28px rgba(15,13,12,0.14);
+
+  --cupertino-pane-background:#FFFFFF;
+  --cupertino-pane-color:#0F0D0C;
+  --cupertino-pane-border-radius:22px;
+  --cupertino-pane-shadow:0 -4px 28px rgba(15,13,12,0.14);
+  --cupertino-pane-move-background:rgba(60,67,62,0.28);
+  --cupertino-pane-destroy-button-background:rgba(234,239,234,0.92);
+  --cupertino-pane-icon-close-color:#3A3937;
+
+  --ios-safe-top:env(safe-area-inset-top,0px);
+  --ios-safe-right:env(safe-area-inset-right,0px);
+  --ios-safe-bottom:env(safe-area-inset-bottom,0px);
+  --ios-safe-left:env(safe-area-inset-left,0px);
+
+  --ios-tap:44px;
+  --ios-tap-lg:48px;
+  --ios-hairline:1px;
+
+  --ios-r-xs:8px;
+  --ios-r-sm:10px;
+  --ios-r-md:14px;
+  --ios-r-lg:20px;
+  --ios-r-sheet:22px;
+  --ios-r-pill:9999px;
+
+  --ios-ease-spring:cubic-bezier(0.22,1,0.36,1);
+  --ios-ease-sheet:cubic-bezier(0.32,0.72,0,1);
+  --ios-ease-decel:cubic-bezier(0.23,1,0.32,1);
+  --ios-dur-fast:160ms;
+  --ios-dur-base:260ms;
+  --ios-dur-sheet:360ms;
+
+  --ios-z-scene:0;
+  --ios-z-hud:10;
+  --ios-z-tabbar:20;
+  --ios-z-sheet:30;
+  --ios-z-grain:40;
+  --ios-z-toast:50;
+  --ios-z-modal:60;
+}
+
+[data-theme="dark"]{
+  --ios-bg-grouped:#121513;
+  --ios-bg-grouped-secondary:#191D1A;
+  --ios-bg-surface:#1E231F;
+  --ios-bg-elevated:#242A25;
+
+  --ios-label:#EFF2EF;
+  --ios-label-2:#C7CEC8;
+  --ios-label-3:#A6B0A7;
+
+  --ios-tint:#68CEA9;
+  --ios-tint-2:#80C776;
+  --ios-tint-fill:#162E24;
+  --ios-teal:#68CEA9;
+  --ios-steel:#8CC6D7;
+  --ios-indigo:#A8B8FD;
+  --ios-amber:#F5C451;
+
+  --ios-danger:#FA8989;
+  --ios-danger-fill:#361616;
+
+  --ios-separator:rgba(166,176,167,0.28);
+  --ios-separator-opaque:#2E3530;
+  --ios-material-chrome:rgba(22,26,23,0.84);
+  --ios-material-sheet:rgba(30,35,31,0.92);
+  --ios-material-pill:rgba(25,29,26,0.84);
+  --ios-scrim:rgba(0,0,0,0.56);
+
+  --ios-shadow-card:0 1px 0 rgba(255,255,255,0.06),0 8px 24px rgba(0,0,0,0.35);
+  --ios-shadow-sheet:0 -6px 32px rgba(0,0,0,0.50);
+
+  --cupertino-pane-background:#1E231F;
+  --cupertino-pane-color:#EFF2EF;
+  --cupertino-pane-shadow:0 -6px 32px rgba(0,0,0,0.50);
+  --cupertino-pane-move-background:rgba(166,176,167,0.42);
+  --cupertino-pane-destroy-button-background:rgba(46,53,48,0.92);
+  --cupertino-pane-icon-close-color:#C7CEC8;
+}
+
+.ios-tabular{font-variant-numeric:tabular-nums}
+
+@supports (border-bottom-width:0.5px){
+  @media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx){
+    :root{--ios-hairline:0.5px}
+  }
+}
+
+@media (prefers-reduced-transparency:reduce){
+  :root{
+    --ios-blur:none;
+    --ios-material-chrome:var(--side-bg,#F7F8F7);
+    --ios-material-sheet:var(--card,#FFFFFF);
+    --ios-material-pill:var(--card,#FFFFFF);
+  }
+  [data-theme="dark"]{
+    --ios-material-chrome:var(--side-bg,#161A17);
+    --ios-material-sheet:var(--card,#1E231F);
+    --ios-material-pill:var(--card,#1E231F);
+  }
+}
+
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  :root{
+    --ios-blur:none;
+    --ios-material-chrome:var(--side-bg,#F7F8F7);
+    --ios-material-sheet:var(--card,#FFFFFF);
+    --ios-material-pill:var(--card,#FFFFFF);
+  }
+  [data-theme="dark"]{
+    --ios-material-chrome:var(--side-bg,#161A17);
+    --ios-material-sheet:var(--card,#1E231F);
+    --ios-material-pill:var(--card,#1E231F);
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  :root{
+    --ios-dur-fast:0s;
+    --ios-dur-base:0s;
+    --ios-dur-sheet:0s;
+  }
+  .cupertino-pane-wrapper,.cupertino-pane-wrapper *{
+    animation:none!important;
+    transition-duration:0s!important;
+  }
+}
+
+html.rm{
+  --ios-dur-fast:0s;
+  --ios-dur-base:0s;
+  --ios-dur-sheet:0s;
+}
+html.rm .cupertino-pane-wrapper,html.rm .cupertino-pane-wrapper *{
+  animation:none!important;
+  transition-duration:0s!important;
+}
+
+@media print{
+  :root,[data-theme="dark"]{
+    --ios-bg-grouped:#FFFFFF;
+    --ios-bg-grouped-secondary:#F6F7F6;
+    --ios-bg-surface:#FFFFFF;
+    --ios-bg-elevated:#FFFFFF;
+    --ios-label:#0F0D0C;
+    --ios-label-2:#333333;
+    --ios-label-3:#555555;
+    --ios-tint:#255A41;
+    --ios-danger:#A61B1B;
+    --ios-separator-opaque:#E6E6E6;
+    --ios-material-chrome:#FFFFFF;
+    --ios-material-sheet:#FFFFFF;
+    --ios-material-pill:#FFFFFF;
+    --cupertino-pane-background:#FFFFFF;
+    --cupertino-pane-color:#0F0D0C;
+    --ios-blur:none;
+  }
+}

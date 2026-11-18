@@ -1,0 +1,12 @@
+# 来源笔记 01：分母口径（年鉴 / CDC / GBD / ICD-11）
+- 阅读时间：2026-11-17，方式：index（browser_search）
+- 国家卫健委《中国卫生健康统计年鉴2024》：2025年4月第1版，收编内容截至2023年底，16部分，资料主要来自年度卫生健康统计报表、一部分来自抽样调查，全国数据不含港澳台。URL：https://www.nhc.gov.cn/mohwsbwstjxxzx/tjtjnj/202601/4c453cf4278941ab8465846d1dc90e08/files/2024中国卫生健康统计年鉴-终.pdf
+- 年鉴目录（第三方年鉴数据网转录，仅作结构参考）：表5-28至5-30医院出院病人年龄别疾病构成，5-33/5-34疾病别两周就诊率，5-37/5-38疾病别住院率，9-7/9-8疾病别两周患病率，9-9慢性病患病率。URL：http://www.nianjiandata.com/books/directory-39127.html
+- 国家卫健委《2024年我国卫生健康事业发展统计公报》（2025-12-02发布）：总诊疗101.5亿人次，入院31192.0万。转述URL：https://news.sina.com.cn/minsheng/2025-12-02/doc-infzkmzp1312841.shtml ——公报本身无疾病别构成，不可作疾病分母。
+- 中国疾控中心慢病中心：死因监测定义与ICD编码，职责含死因、慢病及危险因素、伤害监测。URL：https://ncncd.chinacdc.cn/jkzt_14579/jiankangshfs/202505/t20250506_311759.htm ；https://ncncd.chinacdc.cn/jgxx/zxzn/
+- 中国疾控中心周报GBD 2017四大慢病：中国疾控中心用GBD框架，死亡来自疾病监测点、人口普查、死因报告系统等。URL：https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2019.012
+- GBD 2021中国慢病负担（中华医学杂志英文版/PMC）：2021年慢病死亡1060万占91.0%，DALY 3.493亿占86.7%；心血管、肿瘤为前两位；慢性呼吸为死亡第3，肌肉骨骼为DALY第3。URL：https://pmc.ncbi.nlm.nih.gov/articles/PMC11441934/
+- GBD 2023中国慢病负担（PMC）：心血管死亡率316.08/10万、肿瘤180.02/10万、慢性呼吸73.15/10万。URL：https://pmc.ncbi.nlm.nih.gov/articles/PMC12767929/
+- GBD覆盖范围：204国家地区、369种疾病伤害、87危险因素（GBD 2019/2021多篇一致表述）。URL：https://www.biomedrxiv.org.cn/article/pdf/display/10.12201/bmr.202106.00013
+- WHO ICD-11：2019年WHA72通过，2022-01-01生效；26章+功能评定补充部分+扩展码；5个新章节。WHO文件URL：http://www.who.int/gb/ebwha/pdf_files/WHA72/A72_29-ch.pdf ；中文版章节目录URL：https://zh.wikisource.org/wiki/%E5%9B%BD%E9%99%85%E7%96%BE%E7%97%85%E5%88%86%E7%B1%BB%E7%AC%AC%E5%8D%81%E4%B8%80%E6%AC%A1%E4%BF%AE%E8%AE%A2%E6%9C%AC%EF%BC%88ICD-11%EF%BC%89%E4%B8%AD%E6%96%87%E7%89%88
+- 《中国居民营养与慢性病状况报告（2020年）》（新华网转述发布会）：18+高血压27.5%、糖尿病11.9%、高胆固醇血症8.2%，40+ COPD 13.6%，癌症发病293.9/10万，慢病死亡占88.5%（2019），四类重大慢病过早死亡率16.5%。URL：http://www.xinhuanet.com/politics/2020-12/23/c_1126896810.htm

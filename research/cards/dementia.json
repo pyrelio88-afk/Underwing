@@ -1,0 +1,200 @@
+{
+  "id": "dementia",
+  "kind": "clinical",
+  "updated": "2026-11-17",
+  "title": "认知障碍日常照护",
+  "type": "护理",
+  "sub": "沟通、作息与防走失",
+  "keyline": "一次只说一件事，别争对错，作息固定（国家卫健委）",
+  "keyline_refs": ["alzComm", "niaComm", "nhcAD", "niaAgit"],
+  "flavor": "不是他故意的，是病在作怪。",
+  "stats": [
+    {"k": "适合", "v": "家里有认知障碍（失智、老年痴呆）的老人"},
+    {"k": "准备", "v": "防走失手环或定位器、近期照片"}
+  ],
+  "why": [
+    {"text": "阿尔茨海默病（最常见的老年痴呆）会让人记性变差、说话找不到词、判断变差，性格和行为也会变。这些变化是病造成的，不是老人故意的。", "refs": ["nhcAD", "niaBehav"]},
+    {"text": "家人学会沟通方法和照护技巧，日常「协助而不包办」，能帮老人保住现在还有的能力。", "refs": ["nhcAD"]},
+    {"text": "走失很常见，也很危险，甚至会危及生命。提前做好防护，比事后找人要好得多。", "refs": ["alzWander", "nhcAD"]},
+    {"text": "照护的人压力很大。照顾好自己，才能照顾得长久；感到难过、生气、委屈，都是正常的。", "refs": ["nhcAD", "niaSelf"]}
+  ],
+  "for": ["已确诊阿尔茨海默病或其他认知障碍的家人", "家人记性明显变差、在家照护的日常"],
+  "notfor": ["家人突然变得糊涂、行为在一两天内大变，尤其刚发烧感染或换过药：这不是日常照护能处理的，请直接看何时联系医护", "还没确诊、只是怀疑记性变差：请先陪同到老年病科、神经内科、精神/心理科或记忆门诊就诊"],
+  "steps": [
+    {"t": "说话前先叫名字、看着他", "d": "走到他面前，叫他的名字，看着他的眼睛。在安静的地方一对一说话，关掉电视、收音机。", "why": "背景声音太多，他很难集中注意力听你说。", "refs": ["niaComm", "alzComm"]},
+    {"t": "短句子，一次只说一件事", "d": "说慢一点、清楚一点。一次只问一个问题，多用「是不是」「要不要」来问，比如「要喝点茶吗？」而不是「你想喝什么？」。要做的事一步一步说。", "why": "长句子、一次说好几件事，会让他应付不过来。", "refs": ["alzComm", "niaComm"]},
+    {"t": "给他时间，别打断、别纠正", "d": "多等一会儿让他回答。他说错了也不要批评、纠正，不要争对错；听不懂就换个说法再说一遍。不要问「你还记不记得……」。", "why": "争对错只会让他更急。耐心和安慰，能让他更愿意表达。", "refs": ["alzComm", "niaDos", "niaComm"]},
+    {"t": "态度和蔼，保住他的尊严", "d": "语气温和，不要当着他的面把他当不在场一样议论，不要用哄小孩的口气。可以握着他的手说话。", "why": "国家卫健委强调要注重情感支持，不伤其自尊心，不轻易否定他的要求。", "refs": ["nhcAD", "niaComm"]},
+    {"t": "每天的作息尽量固定", "d": "洗澡、穿衣、吃饭尽量每天同一个时间。白天多拉开窗帘晒太阳，适当活动；傍晚别安排太多事，下午晚些时候少喝咖啡、浓茶，白天别睡太久。", "why": "固定作息让他有安全感；有的老人到了傍晚更容易烦躁糊涂（「日落现象」），规律作息能帮助预防。", "refs": ["niaAgit", "niaBehav"]},
+    {"t": "做好防走失准备", "d": "给他戴上写有姓名、住址和你电话的手环或卡片，或者在衣服上缝上联系方式；可以用定位设备。告诉邻居和社区他容易走失。手机里存一张他近期的照片。", "why": "国家卫健委建议佩戴防走失设备，万一走失，能更快找回来。", "refs": ["nhcAD", "niaWander", "alzWander"]},
+    {"t": "让家里更难「走出去」", "d": "门加锁或装在高处、低处不显眼的位置，门上可装开门提醒铃。把鞋、钥匙、外套、包这些「要出门」的东西收起来。容易走失的老人不要让他独自待着，但也绝不要把他一个人锁在家里。", "why": "看到出门的东西容易勾起「要出去」的念头；开门有提醒，你能及时发现。", "refs": ["niaWander", "alzWander"]},
+    {"t": "他烦躁、发脾气时：先稳住自己", "d": "说话慢、语气平静，听他担心什么，告诉他「你很安全，我在这儿帮你」。可以给点吃的喝的，放他喜欢的音乐，陪他散步或一起叠衣服，转移注意力。你自己也深呼吸、数到 10。如果他动手，先退到安全距离，把刀具、车钥匙等收好。", "why": "激越（坐立不安、发脾气）大多有原因，比如疼痛、便秘、睡不好、环境太吵、被逼着做做不到的事。先安抚，再找原因，告诉医生。", "refs": ["niaAgit"]}
+  ],
+  "mistakes": [
+    {"t": "跟他争对错、纠正他说错的话", "why": "不要批评、纠正，不要争辩；他说的你不同意，就随它去。", "refs": ["alzComm", "niaDos"]},
+    {"t": "一口气问好几个问题、说长串的话", "why": "一次只问一个问题，用简单、一步一步的说法。", "refs": ["alzComm"]},
+    {"t": "什么都替他做", "why": "日常生活中协助而不包办，有助于维持他现有的能力。", "refs": ["nhcAD"]},
+    {"t": "觉得他是故意找茬", "why": "行为变化是病造成的，不是他本人的错。", "refs": ["niaBehav"]},
+    {"t": "照护的人一直硬扛，不肯求助", "why": "照顾一位认知障碍老人，往往超过一个人能承担的量。要请家人朋友帮忙具体的事，每天给自己留点休息时间，定期看自己的医生。", "refs": ["niaSelf"]}
+  ],
+  "freq": [],
+  "stop": [
+    {"level": "120", "text": "他激动到可能伤到自己或别人，或者出现其他紧急情况：打 120，并告诉接线员他有认知障碍（痴呆）。", "refs": ["niaAgit"]},
+    {"level": "urgent", "text": "发现人不见了：马上在附近找；15 分钟内没找到，立刻报警（110），告诉警察他有认知障碍，并提供近期照片。", "refs": ["alzWander", "niaWander"]},
+    {"level": "urgent", "text": "行为突然变了或者忽好忽坏，特别是最近有感染（如发烧、尿路感染）或刚换过药：马上告诉医生。", "refs": ["niaBehav"]},
+    {"level": "followup", "text": "照护的人觉得撑不住、长期睡不好、情绪很差：可以拨打全国统一心理援助热线 12356，也可以去看心理门诊。", "refs": ["nhc12356", "niaSelf"]}
+  ],
+  "conditions": ["阿尔茨海默病", "老年期痴呆", "认知障碍"],
+  "related": ["transfer"],
+  "illus": "家里客厅，一位家属坐在老人面前与老人平视，握着老人的手，面带微笑地慢慢说话；老人手腕上戴着防走失手环，墙上挂着一张大字的作息表（只画格子，不画文字）。",
+  "sources": [
+    {
+      "key": "nhcAD",
+      "title": "国家卫生健康委办公厅关于印发阿尔茨海默病预防与干预核心信息的通知（国卫办老龄函〔2019〕738号）",
+      "publisher": "国家卫生健康委员会，2019（中国政府网转载）",
+      "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/15/content_5452419.htm",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why1 病的表现", "quote": "阿尔茨海默病，是老年期痴呆最主要的类型，表现为记忆减退、词不达意、思维混乱、判断力下降等脑功能异常和性格行为改变等，严重影响日常生活。"},
+        {"for": "why2/错误3/步骤6 家庭照护与防走失", "quote": "六、做好家庭照护。家人掌握沟通技巧、照护技能以及不良情绪的调适方法，在日常生活中协助而不包办，有助于维持患者现有功能。应当为患者提供安全的生活环境，佩戴防走失设备，预防伤害，防止走失。"},
+        {"for": "步骤4/keyline 尊严", "quote": "七、维护患者的尊严与基本权利。注重情感支持，不伤其自尊心，沟通时态度和蔼，不轻易否定其要求。"},
+        {"for": "why4 照护者", "quote": "八、关爱照护人员。患者的照护人员身心压力大，要向照护人员提供专业照护培训和支持服务，维护照护人员身心健康。"},
+        {"for": "notfor 及时就医", "quote": "老年人若出现阿尔茨海默病早期迹象，家人应当及时陪同到综合医院的老年病科、神经内科、精神/心理科、记忆门诊或精神卫生专科医院就诊。"}
+      ]
+    },
+    {
+      "key": "nhc12356",
+      "title": "国家卫生健康委关于应用“12356”全国统一心理援助热线电话号码的通知（国卫医政函〔2024〕259号）",
+      "publisher": "国家卫生健康委员会，2024（中国政府网转载）",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "stop followup 12356", "quote": "我委协调工业和信息化部设置“12356”作为全国统一心理援助热线电话号码。"},
+        {"for": "stop followup 12356 服务内容", "quote": "提供心理健康教育、心理咨询、心理疏导、心理危机干预等服务。"}
+      ]
+    },
+    {
+      "key": "niaComm",
+      "title": "Communicating With Someone Who Has Alzheimer’s Disease",
+      "publisher": "National Institute on Aging（美国国立老龄化研究所），2024 审核",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-changes-communication",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤1 背景噪声", "quote": "Blocking out background noises from the radio, TV, phone calls, or conversations in the room"},
+        {"for": "步骤1 叫名字看眼睛", "quote": "Make eye contact and call the person by name."},
+        {"for": "步骤3 多给时间", "quote": "Allow more time for the person to respond. Be patient and try not to interrupt."},
+        {"for": "步骤4 不当不在场、不哄小孩", "quote": "Don’t talk about the person as if they are not there."},
+        {"for": "步骤4 不用婴儿语", "quote": "Don’t talk to the person using “baby talk” or a “baby voice.”"},
+        {"for": "步骤4 握手", "quote": "Hold the person’s hand while you talk."},
+        {"for": "步骤2/3 是否问题、换说法", "quote": "When speaking to a person with Alzheimer’s, try to ask questions with a yes or no answer, and if the person does not understand what you say the first time, try rephrasing what you said with different words."}
+      ]
+    },
+    {
+      "key": "niaDos",
+      "title": "Infographic: Do’s and Don’ts: Communicating With a Person Who Has Alzheimer's Disease",
+      "publisher": "National Institute on Aging，2026 更新",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has",
+      "verified": "read_section",
+      "quotes": [
+        {"for": "步骤3/错误1 不打断不争辩", "quote": "Interrupt or argue with the person."},
+        {"for": "步骤3 不问记不记得", "quote": "Ask the person whether they remember something or someone."}
+      ]
+    },
+    {
+      "key": "alzComm",
+      "title": "Communication and Alzheimer's",
+      "publisher": "Alzheimer's Association（美国阿尔茨海默病协会）",
+      "url": "https://www.alz.org/help-support/caregiving/daily-care/communications",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤1 安静一对一", "quote": "Engage the person in one-on-one conversation in a quiet space that has minimal distractions."},
+        {"for": "步骤2 慢而清楚", "quote": "Speak slowly and clearly."},
+        {"for": "keyline/步骤2/错误2 一次一个问题", "quote": "Ask one question at a time."},
+        {"for": "步骤2 是否问题举例", "quote": "Ask yes or no questions. For example, “Would you like some coffee?” rather than “What would you like to drink?”"},
+        {"for": "keyline/步骤3/错误1 不纠正", "quote": "Avoid criticizing or correcting. Instead, listen and try to find the meaning in what the person says."},
+        {"for": "错误1 不争辩", "quote": "Avoid arguing. If the person says something you don’t agree with, let it be."},
+        {"for": "步骤2/错误2 一步一步", "quote": "Offer clear, step-by-step instructions for tasks. Lengthy requests may be overwhelming."},
+        {"for": "步骤3 耐心安慰", "quote": "Be patient and offer reassurance. It may encourage the person to explain his or her thoughts."}
+      ]
+    },
+    {
+      "key": "niaAgit",
+      "title": "Coping With Agitation, Aggression, and Sundowning in Alzheimer's Disease",
+      "publisher": "National Institute on Aging，2024 审核",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/coping-agitation-aggression-and-sundowning",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤8 激越有原因", "quote": "Most of the time, agitation and aggression happen for a reason. When they happen, try to find the cause, then talk with a health care provider about possible solutions."},
+        {"for": "步骤8 原因举例", "quote": "Being pushed by others to do something — for example, to bathe or to remember events or people — when Alzheimer’s has made the activity very hard or impossible"},
+        {"for": "步骤8 安抚", "quote": "Speak calmly. Listen to the person’s concerns and avoid arguing. Reassure the person that they are safe, and that you are there to help. Use other communication methods besides speaking, such as gentle touching, to help them calm down. Take deep breaths and count to 10 if you get upset."},
+        {"for": "keyline/步骤5 固定作息", "quote": "Try to keep to a routine, such as bathing, dressing, and eating at the same times each day."},
+        {"for": "步骤8 转移注意力", "quote": "Distract the person with a snack, beverage, or activity. You could watch a favorite TV show, listen to music, go for a walk, read a book, or do a household chore, such as folding laundry, together."},
+        {"for": "步骤8 自我保护", "quote": "Hide or lock up car keys and items that could be used in a harmful way, such as guns and kitchen knives. If your loved one becomes aggressive, stay at a safe distance until the behavior stops."},
+        {"for": "stop 120（原文 911）", "quote": "In an emergency, call 911 and explain that your loved one has dementia."},
+        {"for": "步骤5 日落现象预防", "quote": "Arrange a time to go outside or sit by a window to get sunlight each day."},
+        {"for": "步骤5 少咖啡因、少长睡", "quote": "Avoid alcoholic drinks and beverages with caffeine, such as coffee or cola, late in the day."},
+        {"for": "步骤5 白天别睡太久", "quote": "Discourage long naps and dozing late in the day."},
+        {"for": "步骤5 别安排太多", "quote": "Aim to be physically active each day, but don’t plan too many activities."}
+      ]
+    },
+    {
+      "key": "niaBehav",
+      "title": "Alzheimer’s Caregiving: Managing Personality and Behavior Changes",
+      "publisher": "National Institute on Aging，2024 审核",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why1/错误4 是病造成的", "quote": "It’s important to remember that the disease, not the person with Alzheimer’s, causes these changes."},
+        {"for": "stop urgent 突然变化", "quote": "Sudden or rapidly fluctuating changes in behavior, especially if the person has had an infection or recent medication changes, should be immediately brought to a doctor’s attention."},
+        {"for": "步骤5 固定作息与活动", "quote": "Try to keep the person to a routine by bathing, dressing, and eating at the same time each day."}
+      ]
+    },
+    {
+      "key": "niaWander",
+      "title": "Coping With Alzheimer’s Behaviors: Wandering and Getting Lost",
+      "publisher": "National Institute on Aging，2024 审核",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/coping-alzheimers-behaviors-wandering-and",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "步骤6 身份手环", "quote": "Make sure the person carries some kind of ID or wears a medical bracelet with their name and address, and your phone number."},
+        {"for": "步骤6 衣服标签", "quote": "If you think the person might remove an ID bracelet, label their clothes with a name and phone number."},
+        {"for": "步骤6 定位", "quote": "Many GPS systems are available to track the person’s location."},
+        {"for": "步骤6 告知邻居", "quote": "Let neighbors and the local police know that the person with Alzheimer’s tends to wander."},
+        {"for": "步骤6/stop 照片", "quote": "Keep a recent photograph or video of the person to help police if the person becomes lost."},
+        {"for": "步骤7 门锁与提醒", "quote": "Install a smart doorbell or alarm that chimes when a door is opened."},
+        {"for": "步骤7 收起出门物品", "quote": "Keep shoes, keys, suitcases, coats, hats, and other signs of departure out of sight."},
+        {"for": "步骤7 不独留", "quote": "Do not leave a person with Alzheimer’s who has a history of wandering unattended."}
+      ]
+    },
+    {
+      "key": "alzWander",
+      "title": "Wandering",
+      "publisher": "Alzheimer's Association（美国阿尔茨海默病协会）",
+      "url": "https://www.alz.org/help-support/caregiving/stages-behaviors/wandering",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "why3 走失危险", "quote": "Although common, wandering can be dangerous — even life-threatening — and the stress of this risk weighs heavily on caregivers and family."},
+        {"for": "步骤7 门锁不显眼、不锁人", "quote": "Place deadbolts out of the line of sight, either high or low, on exterior doors. (Do not leave a person living with dementia unsupervised in new or changed surroundings, and never lock a person in at home.)"},
+        {"for": "步骤6 照片", "quote": "Keep a recent, close-up photo of the person on hand to give to police, should the need arise."},
+        {"for": "stop urgent 立即搜寻", "quote": "Start search efforts immediately."},
+        {"for": "stop urgent 15分钟报警（原文 911）", "quote": "If the person is not found within 15 minutes, call 911 to file a missing person’s report. Inform the authorities that the person has dementia."}
+      ]
+    },
+    {
+      "key": "niaSelf",
+      "title": "Alzheimer's Caregiving: Caring for Yourself",
+      "publisher": "National Institute on Aging，2024 审核",
+      "url": "https://www.nia.nih.gov/health/alzheimers-caregiving-caring-yourself",
+      "verified": "read_full",
+      "quotes": [
+        {"for": "错误5 照顾自己", "quote": "Ask for help when you need it."},
+        {"for": "错误5 每天休息、看医生", "quote": "Take breaks each day."},
+        {"for": "错误5 请人帮具体的事", "quote": "Ask people to help out in specific ways, like making a meal, visiting the person, or taking the person out for a short time."},
+        {"for": "错误5 超出一人能力", "quote": "Recognize that the care of a person with Alzheimer’s often exceeds what one person can provide on their own."},
+        {"for": "why4 情绪正常", "quote": "You may feel discouraged, sad, lonely, frustrated, confused, or angry. These feelings are normal."},
+        {"for": "stop followup 寻求专业帮助", "quote": "I will seek help from professionals if caregiving becomes too much for me."}
+      ]
+    }
+  ],
+  "notes": "本地化：NIA「In an emergency, call 911」改为 120；阿尔茨海默病协会「15 分钟未找到即 call 911 报失踪」改为报警 110（中国报警电话为 110，走失属治安报警而非医疗急救，这是唯一一处未写 120 的电话，请审核）。12356 已在国家卫健委国卫医政函〔2024〕259号（中国政府网）核实。中国阿尔茨海默病协会（ADC，中国老年保健协会阿尔茨海默病分会）《防治指导手册（2025版）》「家庭照护核心提示」「常见问题处理要点」页面正文为图片/未加载，无法逐字引用，故未用作来源。nhc.gov.cn 原页返回 HTTP 412，改引中国政府网转载的同一文件全文。niaDos 为信息图页面，正文由搜索结果中可见的页面文本确认，标为 read_section（未单独 web_fetch，若需严格可删除此源，相关条目另有 alzComm 支撑）。"
+}

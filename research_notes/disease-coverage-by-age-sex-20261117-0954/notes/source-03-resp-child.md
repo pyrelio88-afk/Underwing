@@ -1,0 +1,13 @@
+# 来源笔记 03：呼吸/过敏/儿童/精神/骨骼/神经
+- 阅读时间：2026-11-17，方式：index
+- COPD/哮喘成人：中国肺部健康研究，20+ COPD 8.6%约9990万，40+ 13.7%（2020报告作13.6%）；20+哮喘4.2%约4570万。URL：https://cjournal.hep.com.cn/2096-3351/CN/PDF/10.3969/j.issn.2096-3351.2025.05.003
+- 儿童哮喘：第三次全国调查2010年0-14岁城市累计患病率3.02%，男3.51%女2.29%；荟萃分析2010年0-14岁总体2.12%约516万人。URL：https://www.pure.ed.ac.uk/ws/portalfiles/portal/144438670/The_disease_burden_of_childhood_asthma_in_China.pdf ；丁香园临床决策转述URL：https://drugs.dxy.cn/pc/clinicalDecision/pVETimsvdT0vhrE8dARm5EQ?ky=2025
+- 变应性鼻炎：成人自报11.1%（2005）→17.6%（2011），指南2022修订版；儿童1-7岁特应性皮炎3.07%（2002）→12.94%（2015）。URL：https://medical.sciencenet.cn/sbhtmlnews/2025/8/370940.shtm
+- 骨质疏松：2018首次调查，50+ 19.2%（女32.1%、男6.0%），65+ 32.0%（女51.6%、男10.7%），约9000万、女性约7000万。指南2023转录URL：https://www.haodf.com/neirong/wenzhang/9393772882.html ——另有一份食养指南征求意见稿转录男50+为6.9%，冲突已记录。
+- 膝OA：指南2018 CHARLS症状性膝OA 8.1%，女性高于男性。URL：https://cmab.yiigle.com/uploads/guide_html/%E9%AA%A8%E5%85%B3%E8%8A%82%E7%82%8E%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E5%B9%B4%E7%89%88%EF%BC%89.html ；CHARLS 2018自报症状性膝OA 19.5%（女24.82%、男13.64%）URL：https://pmc.ncbi.nlm.nih.gov/articles/PMC12187600/
+- 痴呆：2020 Lancet Public Health横断面，60+痴呆约6%、1507万（AD 983万、血管性392万），MCI 15.5%约3877万。报告2021转述URL：https://www.qk.sjtu.edu.cn/jdcp/article/2021/1671-2870/1671-2870-20-04-317.shtml
+- 帕金森：65+ 1.7%，超300万，2020指南。URL：http://health.people.cn/n1/2022/0411/c14739-32395595.html
+- 癫痫：终生患病率约7‰，约900万，活动性500-600万，中国抗癫痫协会口径。共识PDF URL：https://medtion-image.medtion.com/uploads/1/file/public/202304/20230411170057_ftrak0uev7.pdf ；GBD 2019年龄标化患病率219.69/10万冲突，见未决问题。
+- 精神障碍：首次儿童青少年调查73992人，抑郁障碍3.2%、焦虑障碍4.8%；2019年全人群抑郁2.1%、焦虑4.98%（均为媒体转述调查结果，原始论文未在本轮直接核验）。URL：https://news.sina.cn/gn/2021-12-10/detail-ikyakumx3172477.d.html ；青少年抑郁检出率24.6%为量表检出率，非诊断患病率，不可混用。
+- 近视/肥胖：6-17岁超重11.1%、肥胖7.9%（2020报告，2015-17监测）；儿童青少年近视52.7%（2023/2024卫健委监测转述）与教育部50.3%（2024）口径不同。URL：https://www.163.com/dy/article/KE8PM6SQ05567ARJ.html ；https://news.qq.com/rain/a/20260426A02PFC00
+- OSA：30-69岁1.76亿、中重度6552万，Lancet Respir Med 2019全球估算；男女比约2.6:1，女性90%未诊断见女性OSA共识2024。URL：https://max.book118.com/try_down/298011060045006122.pdf

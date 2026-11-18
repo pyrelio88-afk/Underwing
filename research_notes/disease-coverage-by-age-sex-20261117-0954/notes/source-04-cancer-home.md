@@ -1,0 +1,13 @@
+# 来源笔记 04：癌症/肝炎/妊娠/前列腺/居家指南
+- 阅读时间：2026-11-17，方式：index
+- 国家癌症中心2022：新发482.47万，粗发病率341.75/10万；前十肺106.06万、结直肠51.71万、甲状腺46.61万、肝36.77万、胃35.87万、乳腺35.72万、食管22.40万、宫颈15.07万、前列腺13.42万、胰腺11.87万。URL：https://www.health.net.cn/zb_users/upload/2024/11/202411281732760897250300.pdf ；PMC综述URL：https://pmc.ncbi.nlm.nih.gov/articles/PMC12780754/
+- 乙肝：2020年1-69岁HBsAg流行率5.86%，估算现存感染者约7500万（中国疾控中心）。URL：https://www.laitimes.com/zh/article/714cb_7hglp.html ；慢性乙肝2800万为指南估算，见澎湃转述URL：https://www.thepaper.cn/newsDetail_forward_10566673
+- GDM：中国大陆14.8%（2024母儿共同管理指南解读引用）。URL：https://cjournal.hep.com.cn/0253-3626/CN/PDF/10.13406/j.cnki.cyxb.003899 ；妊娠期高血压5.22%-5.57%与GDM约15%见专家共识新闻转述，证据较弱URL：https://k.sina.com.cn/article_5426766895_14375e42f001030cbs.html
+- BPH：GBD 2019报道中国40+男性患者数与50-60%患病率说法在同一报道中无法互相印证（绝对数疑似口径/转述问题），本报告不采用绝对数，仅作定性“随年龄上升、60岁约半数”并标注未见可靠全国代表性患病率。URL：https://www.thepaper.cn/newsDetail_forward_20943795
+- 糖尿病行为指南2024：自我监测血糖（指尖+CGM）、坚持药物治疗、饮食运动睡眠心理等。URL：http://langzhou888.com/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1399894625&wbfileid=5465411 ；中国糖尿病防治指南2024版刊于中华糖尿病杂志2025,17(1)。
+- 哮喘指南：中华医学会呼吸病学分会《支气管哮喘防治指南2024年版》，吸入装置、峰流速仪相关。URL：https://news.qq.com/rain/a/20250307A08YG500
+- 慢阻肺居家：2021指南+2023吸入装置共识，家庭氧疗须医生评估指征，吸入技术需复诊核实。健康报转述URL：https://faxing.jkb.com.cn/upload/a89c9f55f9e3d3ae/d6af0c5950d74019.pdf
+- 癫痫健康教育护理共识2024（中国抗癫痫协会护理专委会）：侧卧/头偏向一侧、禁塞物、禁强行按压、发作>5分钟联系急救、可视频记录。URL：https://www.brainmed.com/info/detail?id=49615
+- 儿童胃肠炎居家：四川卫健委2026-10-29科普（补水、口服补液盐遵医嘱、退烧药按医嘱/说明书、脱水信号尿少口干哭泪少精神差、发热超3天评估）。URL：https://wsjkw.sc.gov.cn/scwsjkw/fybj/2026/10/29/77d9023716714668ab82583306f4895d.shtml
+- 心衰居家：2022/2024指南框架下每日体重、血压、限盐限水、出入量记录等，均为科普转述指南，报告中不写具体数值目标。URL：https://www.zgyydb.ac.cn/ch/reader/create_pdf.aspx?file_no=202509032&year_id=2025&quarter_id=9&falg=1
+- 合规边界：互联网诊疗须由持证医疗机构提供，非医疗机构不得提供诊断治疗性质服务；广告法禁功效断言/治愈率。律所分析URL：http://www.east-concord.com/zygd/Article/20268/ArticleContent_4758.html ——非法条原文，法条名称以官方文本为准，产品上线前须法务复核。
